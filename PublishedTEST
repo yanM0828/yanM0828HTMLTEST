@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div class="w3-col l10 m12" id="main">
+      <div id="mainLeaderboard" style="overflow:hidden;">
+        <!-- MainLeaderboard-->
+
+        <!--<pre>main_leaderboard, all: [728,90][970,90][320,50][468,60]</pre>-->
+        <div id="adngin-main_leaderboard-0" data-google-query-id="CMib4oaY9vcCFSqPpwodGKcEEA"><div id="google_ads_iframe_/22152718,16833175/sws-hb//w3schools.com//main_leaderboard_1__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/22152718,16833175/sws-hb//w3schools.com//main_leaderboard_1" name="google_ads_iframe_/22152718,16833175/sws-hb//w3schools.com//main_leaderboard_1" title="3rd party ad content" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" role="region" aria-label="Advertisement" tabindex="0" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" srcdoc="" style="border: 0px; vertical-align: bottom;" data-google-container-id="6" data-load-complete="true"></iframe></div></div>
+        <!-- adspace leaderboard -->
+
+      </div>
+<hr>
+
+<div class="ws-black w3-round" style="padding:30px 3px 85px 3px">
+  <div class="w3-content w3-padding" style="max-width:974px;padding-top:78px;padding-bottom:125px">
+    <h1 style="font-family: 'Source Sans Pro', sans-serif;font-size:65px;font-weight:700;text-align:center">Code Editor</h1>
+    <!--<h3 style="font-family: 'Source Sans Pro', sans-serif;font-size:25px;letter-spacing:3px;text-align:center">W3Schools <strong style="color:#04AA6D">Tryit Yourself</strong></h3>-->
+    <h4 style="font-family: 'Source Sans Pro', sans-serif;margin-top:25px;" class="w3-center">With our online code editor, you can edit code and view the result in your browser</h4>
+    <br><br>
+    <div class="codeeditorbr-container">
+      <div class="codeeditorbr-row">
+        <div class="codeeditorbr-column codeeditorbr-left">
+          <span class="codeeditorbr-dot" style="background:#ED594A;"></span>
+          <span class="codeeditorbr-dot" style="background:#FDD800;"></span>
+          <span class="codeeditorbr-dot" style="background:#5AC05A;"></span>
+        </div>
+
+        <div class="codeeditorbr-column codeeditorbr-middle">
+          <input type="text" disabled="" class="codeeditorbr-input" value="www.w3schools.com/tryit/">
+        </div>
+      </div>
+        <div class="w3-bar" style="background-color:#f1f1f1">
+    <button class="w3-bar-item w3-button codeeditorbr-tablink ws-grey" style="color:black" onclick="openFunc(event,'Frontend')">Frontend</button>
+    <button class="w3-bar-item w3-button codeeditorbr-tablink" style="color:black" onclick="openFunc(event,'Backend')">Backend</button>
+  </div>
+   <div id="Frontend" class="proglang">
+      <img src="/codeeditor.gif" style="width:100%;height:auto;display:block;border-bottom-left-radius:4px;border-bottom-right-radius:4px;">
+      </div>
+      
+         <div id="Backend" class="proglang" style="display:none">
+      <img src="best2.gif" style="width:100%;height:auto;display:block;border-bottom-left-radius:4px;border-bottom-right-radius:4px;">
+      </div>
+
+    </div><br>
+    <!--
+    <a href="/tryit/tryit.asp?filename=tryhtml_default" target="_blank" class="ws-btn" style="font-size:18px;text-align:left;width:325px;">Try it Yourself (HTML/CSS/JS)</a><br><br>
+    <a href="/tryit/trycompiler.asp?filename=demo_python" target="_blank" class="ws-btn ws-yellow hover-yellow" style="font-size:18px;text-align:left;width:325px;">Try it Yourself (Python/PHP/Java etc.)</a>
+    -->
+    <a href="tryit.asp?filename=tryhtml_hello" target="_blank" class="ws-btn w3-mobile" style="font-size:18px;text-align:left;">Try Frontend Editor (HTML/CSS/JS)</a><br><br>
+    <a href="trycompiler.asp?filename=demo_python" target="_blank" class="ws-btn w3-mobile ws-yellow hover-yellow" style="font-size:18px;text-align:left;">Try Backend Editor (Python/PHP/Java..)</a>
+  </div>
+</div>
+<hr>
+
+<h1>Frontend Code Editor </h1>
+<p>With W3Schools online code editor, you can edit HTML, CSS and JavaScript 
+code, and view the result in your browser.</p>
+<p>The window to the left is editable - edit the code and click on the "Run" button to view the result in the right window.</p>
+<p class="w3-hide-small">The "Result Size" returns the width and the height of the result window in pixels (even when you resize the browser window).</p>
+<p>You can control the size of a window with the bar in between the windows (draggable gutter).</p>
+<p>The icons are explained in the table below:</p>
+  <table class="ws-table-all">
+    <tbody><tr>
+      <th>Icon</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><span class="fa fa-home w3-xlarge" style="color:#888"></span></td>
+      <td>Go to www.w3schools.com</td>
+    </tr>
+    <tr>
+      <td><span class="fa fa-bars w3-xlarge" style="color:#888"></span></td>
+      <td>Menu button for more options</td>
+    </tr>
+    <tr>
+      <td><span class="fa fa-save w3-xlarge" style="color:#888"></span></td>
+      <td>Save your code (and share it with others)</td>
+    </tr>
+    <tr>
+      <td><span class="fa fa-rotate w3-xlarge" style="color:#888"></span></td>
+      <td>Change orientation (horizontally or vertically)</td>
+    </tr>
+    <tr>
+      <td><span class="fa fa-adjust w3-xlarge" style="color:#888"></span></td>
+      <td>Change color theme (dark or light)</td>
+    </tr>
+  </tbody></table>
+<hr>
+
+<h1>Learn to Code</h1>
+<p>If you are new to coding, we suggest that you start with HTML, and move on to CSS and JavaScript:</p>
+<a class="ws-btn" href="/html/default.asp">HTML Tutorial</a>
+<a class="ws-btn" href="/css/default.asp">CSS Tutorial</a>
+<a class="ws-btn" href="/js/default.asp">JavaScript Tutorial</a>
+
+<hr>
+
+<h1>Backend Code Compiler</h1>
+
+<p>The backend code compiler allows you to edit Python, C#, C++, PHP, 
+Node.js, Java, Bash, Clojure, Fortran, Go, Kotlin, Perl, R, Ruby, Scala, Swift, 
+TypeScript, and VB.NET code, and view the result in your browser.</p>
+<br class="w3-hide-large w3-hide-medium">
+<div class="mq">
+<div class="trytopnav ws-grey">
+
+ <div class="w3-bar w3-hide-small" style="overflow:hidden;">
+  <a href="javascript:void(0);" class="w3-button w3-bar-item topnav-icons fa fa-home w3-hover-none" style="font-size:28px!important;margin-right:4px;margin-bottom:-4px;"></a>
+  <a href="javascript:void(0);" class="w3-button w3-bar-item topnav-icons fa fa-bars w3-hover-none" style="font-size:28px!important;margin-right:4px;margin-bottom:-4px;"></a>
+  <a href="javascript:void(0);" class="w3-button w3-bar-item topnav-icons fa fa-save w3-hover-none" style="font-size:28px!important;margin-right:4px;margin-bottom:-4px;"></a>
+  <a href="javascript:void(0);" class="w3-button w3-bar-item topnav-icons fa fa-rotate w3-hover-none" style="font-size:28px!important;margin-right:4px;margin-bottom:-4px;"></a>
+  <a href="javascript:void(0);" class="w3-button w3-bar-item topnav-icons fa fa-adjust w3-hover-none" style="font-size:28px!important;margin-bottom:-4px;"></a>  
+  <a href="trycompiler.asp?filename=demo_python" class="w3-button w3-bar-item ws-green ws-hover-green" style="
+    color:white!important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    padding: 6px 25px;
+    margin-top: 4px;
+    margin-left:6px;
+    border-radius: 5px;
+    word-spacing: 10px;}" target="_blank">Run »</a>
+  <select class="w3-select w3-bar-item xw3-hover-dark-grey" style="margin-left:16px;cursor:pointer;font-size:16px;padding:13px 6px;margin-top:1px;">
+    <option>R</option>
+    <option>Python</option>
+    <option>C#</option>
+    <option>C++</option>
+    <option>PHP</option>
+    <option>Node.js</option>
+    <option>Java</option>
+    <option>Bash</option>
+    <option>Clojure</option>
+    <option>Fortran</option>
+    <option>Go</option>
+    <option>Kotlin</option>
+    <option>Perl</option>
+    <option>Ruby</option>
+    <option>Scala</option>
+    <option>Swift</option>
+    <option>TypeScript</option>
+    <option>VB.NET</option>
+  </select>
+  <span class="w3-right w3-hide-small ws-hide-800" style="padding:12px 16px 10px 0;display:block;float:right;"><span id="compilerframesize">Result Size: <span></span></span></span>
+</div>
+<div class="editor-container w3-container">
+<div class="editor-child editor-edit">
+<div class="tabs-container" style="border-left:none; height:5%; margin-top:20px;margin-bottom:-12px;">
+  <ul class="tabs">
+    <li class="tab active" data-tab="0" id="textareaCodeTab">prog.r</li>
+    <li class="tab" data-tab="1" id="textareaCodeInputTab">Input</li>
+    <li class="tab" data-tab="2" id="textareaCodeTab2">+</li>
+    <li class="tab" data-tab="3" id="textareaCodeTab3">+</li>
+  </ul>
+</div>      
+<div class="xw3-white w3-padding notranslate pythonHigh w3-code w3-border" style="border-left:none; height:88%;"><span class="pythoncolor" style="color:black"><span class="pythonnumbercolor" style="color:red">
+</span>  <span class="commentcolor" style="color:green"># We need this line of code to show graphs in our compiler<br></span><span class="pythonnumbercolor" style="color:red">
+</span>  bitmap(file=<span class="pythonstringcolor" style="color:brown">"out.png"</span>)<br><br><span class="commentcolor" style="color:green"># Create a vector of pies<br></span>x &lt;- c(<span class="pythonnumbercolor" style="color:red">10</span>,<span class="pythonnumbercolor" style="color:red">20</span>,<span class="pythonnumbercolor" style="color:red">30</span>,<span class="pythonnumbercolor" style="color:red">40</span>)<br><span class="pythonnumbercolor" style="color:red">
+</span>  <br><span class="commentcolor" style="color:green"># Display the pie chart<br></span>pie(x)<span class="pythonnumbercolor" style="color:red">
+</span> </span></div>
+</div>
+
+<div id="editorEdit" class="w3-container editor-child editor-view w3-border">
+<img src="r_pie.png" style="max-height:100%; max-width:100%">
+</div>
+</div>
+<a class="ws-btn" style="margin-left:16px;margin-top:8px;margin-bottom:16px" href="trycompiler.asp?filename=demo_python" target="_blank">Try it Yourself »</a>
+</div>
+</div>
+<p>Click on the "Try it Yourself" button to see how it works.</p>
+
+<div class="w3-note w3-panel">
+<h2>Code Compiler Explained</h2>
+<p>The Dropdown list to the right of the "Run" button allows you to change programming languages.</p>
+<p>By selecting the "input" tab, you can add user input to use in the code.</p>
+<p>The "+" tabs allows you to add additional files (for the same language you are currently running) to run.</p>
+<p><strong>Tip:</strong> You will find most of the topics above in our <a href="https://www.w3schools.com">home page</a>.</p>
+</div>
+
+
+<div id="mypagediv2" style="position:relative;text-align:center;"></div>
+<br>
+
+</div>
+
+</body>
+
+
+
+</html>
